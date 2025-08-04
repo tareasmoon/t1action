@@ -1,0 +1,15 @@
+name: Calculate Age
+description: Calculate years left to reach 100
+inputs:
+  edad:
+    description: Age of the person
+    required: true
+  nombre:
+    description: First name
+    required: true
+  apellido:
+    description: Last name
+    required: true
+runs:
+  using: "node12"
+  main: "index.js"
